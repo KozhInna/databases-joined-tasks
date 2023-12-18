@@ -1,0 +1,64 @@
+.container {
+  height: 100vh;
+  background-color: #f6e1c8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.dataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.choiceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.illustration {
+  width: 204px;
+  height: 50px;
+  border: 2px solid white;
+  display: flex;
+  overflow: auto;
+  overflow-y: hidden;
+  flex: 1 1 auto;
+}
+.btn {
+  padding: 8px 10px 5px 10px;
+  border-radius: 15px;
+  background-color: #636ed0;
+  color: white;
+  width: 100px;
+  text-align: center;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.stackqueueItem {
+  height: 100%;
+  width: 20px;
+  background-color: #feb33b;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+.middleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}

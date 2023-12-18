@@ -1,0 +1,46 @@
+main {
+  color: #444;
+
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 110%;
+  align-items: center;
+  background-color: rgb(246, 225, 200);
+  height: 100vh;
+}
+input {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+}
+label {
+  display: block;
+}
+button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(69, 84, 222);
+  color: white;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.container {
+  margin-top: 100px;
+  max-height: 200px;
+}
+button:hover {
+  cursor: pointer;
+}
