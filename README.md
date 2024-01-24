@@ -1,8 +1,14 @@
-# React + Vite
+# Databases and Data Structures course
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Example screenshot](./src/assets/Screenshot.png)
 
-Currently, two official plugins are available:
+Databases and Data Structures course at Business college Helsinki. My solution to course tasks: a palindrome checker app, a bubble sort app, a stack data structure app.
+Initially these tasks were done in this repository - [link](https://github.com/KozhInna/databases_tasks_23S)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used
+
+ReactJS, HTML, CSS
+
+### **Check it out!**
+
+[App](https://euphonious-crepe-a8e927.netlify.app)
